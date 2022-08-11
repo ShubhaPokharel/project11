@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Recognition</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Lora&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body id="text_color">
+    <center>
+        <br><br>
+        <h1>Family Recognition</h1>
+        <hr width="80px" color="white">
+        <br><br>
+        <table>
+            <tr>
+                <th>Family Members</th>
+            </tr>
+            <tr id="names">
+                <td id="dadname">Dad</td>
+                <td>Mother</td>
+                <td>Shubha</td>
+            </tr>
+        </table>
+        <br>
+        <div class = "head">
+            <div id="textcamera" class="abc">
+                <h3>Your webcam will display here</h3>
+                <h2>↓</h2>
+            </div>
+            <div class="camera_block">
+                <div id="camera" class="abc"></div>
+                <div id="results"></div>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,57 @@
+ #text_color{
+    background-image: linear-gradient(#212324,#323536, #c4c49b);
+    color: white;
+ }
+
+ h1{
+    color: #ffffff; 
+    font-family: 'Julius Sans One', sans-serif;
+ }
+
+ table td{
+     height: 70px;
+     width: 100px;
+ }
+
+ tr{
+    display: flex;
+    flex-direction: column;
+ }
+
+ th{
+    font-family: 'Lora', serif;
+    color: aliceblue;
+    padding-bottom: 30px;
+ }
+ #names{
+    font-family: 'Aboreto', cursive;
+    color: white;
+    position: relative;
+    right:-30px;
+}
+#dadname{
+    position: relative;
+    right:-18px;
+}
+
+#textcamera{
+  
+  float: left;
+  /* margin-top: 140px; */
+  
+    
+}
+#camera{
+    
+}
+
+.camera_block{
+    float: left;
+}
+
+.abc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
